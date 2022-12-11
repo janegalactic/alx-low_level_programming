@@ -3,8 +3,9 @@
 #include <time.h>
 
 /**
- * main - Entry
- * Return: Always 0
+ * main - assign random number
+ *
+ * Return: 0
  */
 int main(void)
 {
@@ -17,7 +18,7 @@ int main(void)
 
 	if (a > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", a);
+		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
 	else if (a == 0)
 	{
